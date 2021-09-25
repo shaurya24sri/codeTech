@@ -1,0 +1,21 @@
+h1{
+	background-color: #7AF2A6;
+	color: white;
+	font-size: 36px;
+	text-transform: capitalize;
+	justify-content: center;
+	align-items: center;
+	width: 20%;
+	margin-top: 8%;
+	display: flex;
+    text-align: center;
+    margin-left: 40%;
+    border-radius: .4rem;
+}
+img{
+	width: 30%;
+	height: 50%;
+	text-align: center;
+	margin-left: 35%;
+	align-items: center;
+}
