@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+</head>
+<body>
+<div id="sawo-container" style="height: 300px; width: 300px;"></div>
+
+
+<script src="http://websdk.sawolabs.com/sawo.min.js"></script> 
+<script>
+  var config = {
+                           
+                            containerID: "sawo-container",
+                           
+                            identifierType: "phone_number_sms",
+                            
+                            apiKey: "df8cb12d-d8ab-498f-83e3-8e6fea3f3db6",
+                            
+                            onSuccess: (payload) => {
+                                console.log(payload)
+                            },
+                        };
+                        var sawo = new Sawo(config);
+                        sawo.showForm();
+
+                        </script>
+</body>
+</html>
